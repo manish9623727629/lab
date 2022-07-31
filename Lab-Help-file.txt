@@ -1,0 +1,40 @@
+Downlod git software: 
+https://gitforwindows.org/
+
+create account:
+https://github.com
+
+git command list:
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+create new repositry
+git config --global user.name “username ”
+git config --global user.email mail id
+
+#create New File
+git add .
+git commit -m "my test commit"
+git push
+
+git switch b
+git add .
+git commit -m "test message"
+git push
+
+git switch main
+git merge origin/b
+git push
+
+
+git switch c
+git checkout main
+git merge origin/main
+#perform changes on branch C
+git add .
+git commit -m "test message"
+git push
+
+
+git switch main
+git merge origin/c
